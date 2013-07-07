@@ -24,6 +24,10 @@ export GREP_OPTIONS="--color=auto"
 # Link Homebrew casks in `/Applications` rather than `~/Applications`
 export HOMEBREW_CASK_OPTS="--appdir=/Applications"
 
-# Make homebrew applications the default
-export PATH=~/.bin:usr/local/bin:/usr/local/sbin:$PATH
-# /usr/local/share/python:/usr/local/share/npm/bin:
+# export PYTHONPATH=/usr/local/lib/python2.7/site-packages:$PYTHONPATH
+
+# Virtualenvwrapper config
+export VIRTUALENVWRAPPER_PYTHON=/usr/local/bin/python
+export WORKON_HOME=$HOME/.virtualenvs
+export PROJECT_HOME=$HOME/Projects
+source /usr/local/share/python/virtualenvwrapper.sh
