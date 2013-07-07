@@ -24,8 +24,8 @@
 	# Interactive rebase with the given number of latest commits
 	reb = "!r() { git rebase -i HEAD~$1; }; r"
 
-	ci="commit -a -m"
-	co="checkout"
+	ci = "commit -a -m"
+	co = "checkout"
 
 [apply]
 	# Detect whitespace errors when applying a patch
