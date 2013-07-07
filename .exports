@@ -1,5 +1,5 @@
 # Make vim the default editor
-export EDITOR="vim"
+# export EDITOR="vim"
 
 # Larger bash history (allow 32³ entries; default is 500)
 export HISTSIZE=32768
@@ -23,3 +23,7 @@ export GREP_OPTIONS="--color=auto"
 
 # Link Homebrew casks in `/Applications` rather than `~/Applications`
 export HOMEBREW_CASK_OPTS="--appdir=/Applications"
+
+# Make homebrew applications the default
+export PATH=~/.bin:usr/local/bin:/usr/local/sbin:$PATH
+# /usr/local/share/python:/usr/local/share/npm/bin:
