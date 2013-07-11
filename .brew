@@ -33,12 +33,12 @@ brew install homebrew/dupes/grep
 #brew install homebrew/dupes/screen
 
 # Install other useful binaries
-# brew install ack
-#brew install exiv2
 brew install git
-#brew install imagemagick
-# brew install lynx
 brew install node
+# brew install ack
+# brew install exiv2
+# brew install imagemagick
+# brew install lynx
 # brew install pigz
 # brew install rename
 # brew install rhino
@@ -47,11 +47,11 @@ brew install node
 # brew install zopfli
 
 brew tap homebrew/versions
-# brew install lua52
+brew install lua52
 
 # Install native apps
-# brew tap phinze/homebrew-cask
-# brew install brew-cask
+brew tap phinze/homebrew-cask
+brew install brew-cask
 
 function installcask() {
 	brew cask install "${@}" 2> /dev/null
@@ -59,14 +59,28 @@ function installcask() {
 
 installcask dropbox
 installcask google-chrome
-# installcask google-chrome-canary
-installcask imagealpha
-# installcask imageoptim
-# installcask iterm2
-# installcask macvim
 installcask miro-video-converter
 installcask sublime-text
 installcask the-unarchiver
+installcask evernote
+installcask alfred
+installcask calibre
+installcask libre-office
+installcask postgres
+installcask skype
+installcask u-torrent
+installcask app-cleaner
+
+
+# mxplayer
+# total terminal
+# flycut
+
+# installcask google-chrome-canary
+# installcask imagealpha
+# installcask imageoptim
+# installcask iterm2
+# installcask macvim
 # installcask tor-browser
 # installcask transmission
 # installcask ukelele
