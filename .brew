@@ -35,6 +35,7 @@ brew install homebrew/dupes/grep
 # Install other useful binaries
 brew install git
 brew install node
+brew install python
 # brew install ack
 # brew install exiv2
 # brew install imagemagick
@@ -46,8 +47,8 @@ brew install node
 # brew install webkit2png
 # brew install zopfli
 
-brew tap homebrew/versions
-brew install lua52
+# brew tap homebrew/versions
+# brew install lua52
 
 # Install native apps
 brew tap phinze/homebrew-cask
@@ -71,7 +72,7 @@ installcask skype
 installcask u-torrent
 installcask app-cleaner
 
-
+# EXTRA
 # mxplayer
 # total terminal
 # flycut
@@ -89,3 +90,7 @@ installcask app-cleaner
 
 # Remove outdated versions from the cellar
 brew cleanup
+
+
+pip install virtualenvwrapper
+pip install virtualenv
