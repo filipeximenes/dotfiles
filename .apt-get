@@ -1,3 +1,8 @@
 APTGET='sudo apt-get install'
 
 $APTGET guake
+
+# google-chrome
+# parcellite
+# dropbox
+# sublime text
