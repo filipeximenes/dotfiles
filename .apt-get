@@ -1,6 +1,8 @@
-APTGET='sudo apt-get install'
+APTGET='sudo apt-get -y install'
 
 $APTGET guake
+sudo add-apt-repository ppa:hel-sheep/pastie && sudo apt-get update
+$APTGET pastie
 
 # google-chrome
 # parcellite
