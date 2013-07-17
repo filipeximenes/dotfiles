@@ -1,0 +1,3 @@
+APTGET='sudo apt-get install'
+
+$APTGET guake
