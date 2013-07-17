@@ -90,7 +90,3 @@ installcask app-cleaner
 
 # Remove outdated versions from the cellar
 brew cleanup
-
-
-pip install virtualenvwrapper
-pip install virtualenv
