@@ -38,6 +38,9 @@ else
 	export WORKON_HOME=$HOME/.virtualenvs
 	export PROJECT_HOME=$HOME/Projects
 	source /usr/local/share/python/virtualenvwrapper.sh
+
+	# Autoenv config
+	# source /usr/local/opt/autoenv/activate.sh
 fi
 
 	

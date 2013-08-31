@@ -36,6 +36,7 @@ brew install homebrew/dupes/grep
 brew install git
 brew install node
 brew install python
+brew install autoenv
 # brew install ack
 # brew install exiv2
 # brew install imagemagick
