@@ -7,3 +7,4 @@ fi
 
 $SUDO pip install virtualenv
 $SUDO pip install virtualenvwrapper
+$SUDO pip install httpie
