@@ -1,0 +1,19 @@
+{
+	"auto_upgrade_last_run": null,
+	"installed_packages":
+	[
+		"Alignment",
+		"ApplySyntax",
+		"AutoFileName",
+		"LiveReload",
+		"Markdown Preview",
+		"DetectSyntax",
+		"IndentGuides",
+		"Package Control",
+		"RubyFormat",
+		"SCSS",
+		"SublimeCodeIntel",
+		"SublimeLinter",
+		"Tag"
+	]
+}

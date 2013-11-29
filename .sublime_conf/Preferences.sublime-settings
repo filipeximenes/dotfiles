@@ -1,0 +1,17 @@
+{
+	"draw_white_space": "all",
+	"ensure_newline_at_eof_on_save": true,
+	"font_size": 10.0,
+	"hot_exit": false,
+	"ignored_packages":
+	[
+	],
+	"indent_guide_options":
+	[
+		"draw_normal",
+		"draw_active"
+	],
+	"remember_open_files": false,
+	"show_tab_close_buttons": false,
+	"translate_tabs_to_spaces": true
+}
