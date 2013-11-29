@@ -19,7 +19,12 @@ sudo apt-get install -y sublime-text
 sudo apt-get install -y python-pip
 
 # python dev
-sudo apt-get install -y python-dev
+sudo apt-get -y install build-essential python-dev libpq-dev python-virtualenv libbz2-dev zlib1g-dev libfreetype6-dev libjpeg8-dev 
+sudo apt-get -y build-dep python-psycopg2
+sudo apt-get -y build-dep python-imaging
+sudo ln -s /usr/lib/`ls /usr/lib/ | grep linux-gnu | head -n 1`/libfreetype.so /usr/lib/
+sudo ln -s /usr/lib/`ls /usr/lib/ | grep linux-gnu | head -n 1`/libjpeg.so /usr/lib/
+sudo ln -s /usr/lib/`ls /usr/lib/ | grep linux-gnu | head -n 1`/libz.so /usr/lib/
 
 # postgres
 sudo apt-get instal -y postgresql
