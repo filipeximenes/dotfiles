@@ -27,13 +27,23 @@ sudo ln -s /usr/lib/`ls /usr/lib/ | grep linux-gnu | head -n 1`/libjpeg.so /usr/
 sudo ln -s /usr/lib/`ls /usr/lib/ | grep linux-gnu | head -n 1`/libz.so /usr/lib/
 
 # npm
-sudo apt-get install -y node
+sudo apt-get install -y python-software-properties python g++ make
+sudo add-apt-repository -y ppa:chris-lea/node.js
+sudo apt-get update
+sudo apt-get install -y nodejs
 sudo apt-get install -y npm
 
 # postgres
 sudo apt-get instal -y postgresql
 
+# curl
+sudo apt-get install -y curl
+
+# ruby
+\curl -L https://get.rvm.io | bash -s stable --ruby
+gem install compass
+
 # dropbox
-cd ~ && wget -O - "https://www.dropbox.com/download?plat=lnx.x86" | tar xzf -
-~/.dropbox-dist/dropboxd &
+#cd ~ && wget -O - "https://www.dropbox.com/download?plat=lnx.x86_64" | tar xzf -
+#~/.dropbox-dist/dropboxd &
 
