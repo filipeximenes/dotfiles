@@ -27,6 +27,7 @@ sudo ln -s /usr/lib/`ls /usr/lib/ | grep linux-gnu | head -n 1`/libjpeg.so /usr/
 sudo ln -s /usr/lib/`ls /usr/lib/ | grep linux-gnu | head -n 1`/libz.so /usr/lib/
 
 # npm
+sudo apt-get install -y node
 sudo apt-get install -y npm
 
 # postgres
