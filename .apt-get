@@ -33,6 +33,11 @@ sudo apt-get update
 sudo apt-get install -y nodejs
 sudo apt-get install -y npm
 
+# exFat
+sudo add-apt-repository ppa:relan/exfat
+sudo apt-get update
+sudo apt-get install -y fuse-exfat
+
 # postgres
 sudo apt-get instal -y postgresql
 
