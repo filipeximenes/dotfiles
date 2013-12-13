@@ -2,13 +2,12 @@
 
 # Make sure we’re using the latest Homebrew
 brew update
-
-# Upgrade any already-installed formulae
 brew upgrade
 
 # Install GNU core utilities (those that come with OS X are outdated)
 brew install coreutils
 echo "Don’t forget to add $(brew --prefix coreutils)/libexec/gnubin to \$PATH."
+
 # Install GNU `find`, `locate`, `updatedb`, and `xargs`, g-prefixed
 brew install findutils
 # Install Bash 4
@@ -16,11 +15,6 @@ brew install bash
 
 # Install wget with IRI support
 brew install wget --enable-iri
-
-# Install RingoJS and Narwhal
-# Note that the order in which these are installed is important; see http://git.io/brew-narwhal-ringo.
-# brew install ringojs
-# brew install narwhal
 
 # Install more recent versions of some OS X tools
 brew tap homebrew/dupes
@@ -30,42 +24,9 @@ brew install homebrew/dupes/grep
 brew install git
 brew install node
 brew install python
-brew install autoenv
 
 # brew tap homebrew/versions
 # brew install lua52
-
-# Install native apps
-brew tap phinze/homebrew-cask
-brew install brew-cask
-
-function installcask() {
-	brew cask install "${@}" 2> /dev/null
-}
-
-installcask dropbox
-installcask google-chrome
-installcask miro-video-converter
-installcask sublime-text
-installcask the-unarchiver
-installcask evernote
-installcask alfred
-installcask calibre
-installcask libre-office
-installcask postgres
-installcask skype
-installcask u-torrent
-installcask app-cleaner
-installcask totalterminal
-installcask virtualbox
-installcask harvest
-installcask libreoffice
-installcask pgadmin3
-installcask rdio
-installcask mplayerx
-
-# EXTRA
-# flycut
 
 # Remove outdated versions from the cellar
 brew cleanup

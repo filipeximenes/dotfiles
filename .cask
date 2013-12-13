@@ -1,0 +1,34 @@
+# Install native apps
+brew tap phinze/homebrew-cask
+brew install brew-cask
+
+function installcask() {
+    brew cask install "${@}" 2> /dev/null
+}
+
+installcask dropbox
+installcask google-chrome
+installcask miro-video-converter
+installcask sublime-text
+installcask the-unarchiver
+installcask evernote
+installcask alfred
+installcask calibre
+installcask libre-office
+installcask postgres
+installcask skype
+installcask u-torrent
+installcask app-cleaner
+installcask totalterminal
+installcask virtualbox
+installcask harvest
+installcask libreoffice
+installcask pgadmin3
+installcask rdio
+installcask mplayerx
+
+# EXTRA
+# flycut
+
+# Remove outdated versions from the cellar
+brew cleanup

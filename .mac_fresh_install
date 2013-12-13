@@ -6,5 +6,6 @@
 ruby -e "$(curl -fsSL https://raw.github.com/mxcl/homebrew/go/install)"
 
 source .brew
+source .cask
 source .pip_installs
 source bootstrap.sh
