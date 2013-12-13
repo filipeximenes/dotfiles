@@ -26,6 +26,8 @@ installcask rdio
 installcask mplayerx
 installcask appcleaner
 
+brew tap filipeximenes/casks
+
 brew cask alfred link
 
 # EXTRA
