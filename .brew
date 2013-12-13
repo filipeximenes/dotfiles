@@ -65,7 +65,6 @@ installcask rdio
 installcask mplayerx
 
 # EXTRA
-# mxplayer
 # flycut
 
 # Remove outdated versions from the cellar
