@@ -27,6 +27,7 @@ installcask mplayerx
 installcask appcleaner
 
 brew tap filipeximenes/casks
+installcask harvest-lion
 
 brew cask alfred link
 
