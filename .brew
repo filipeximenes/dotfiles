@@ -72,10 +72,15 @@ installcask postgres
 installcask skype
 installcask u-torrent
 installcask app-cleaner
+installcask totalterminal
+installcask virtualbox
+installcask harvest
+installcask libreoffice
+installcask pgadmin3
+installcask rdio
 
 # EXTRA
 # mxplayer
-# total terminal
 # flycut
 
 # installcask google-chrome-canary
