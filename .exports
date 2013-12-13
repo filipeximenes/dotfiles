@@ -1,5 +1,5 @@
 # Make vim the default editor
-# export EDITOR="vim"
+export EDITOR="vim"
 
 # Larger bash history (allow 32³ entries; default is 500)
 export HISTSIZE=32768
@@ -37,7 +37,7 @@ else
 	export VIRTUALENVWRAPPER_PYTHON=/usr/local/bin/python
 	export WORKON_HOME=$HOME/.virtualenvs
 	export PROJECT_HOME=$HOME/Projects
-	source /usr/local/share/python/virtualenvwrapper.sh
+	source /usr/local/bin/virtualenvwrapper.sh
 
 	# Autoenv config
 	# source /usr/local/opt/autoenv/activate.sh

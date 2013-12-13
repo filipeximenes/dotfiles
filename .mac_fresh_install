@@ -1,0 +1,12 @@
+
+
+# install XCode
+# install command line tools
+
+ruby -e "$(curl -fsSL https://raw.github.com/mxcl/homebrew/go/install)"
+
+source .brew
+source .pip_installs
+source bootstrap.sh
+
+cp ~/.sublime_conf/* ~/Library/Application\ Support/Sublime\ Text\ 2/Packages/User
