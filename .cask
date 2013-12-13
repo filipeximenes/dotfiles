@@ -14,11 +14,8 @@ installcask the-unarchiver
 installcask evernote
 installcask alfred
 installcask calibre
-installcask libre-office
-installcask postgres
 installcask skype
-installcask u-torrent
-installcask app-cleaner
+installcask utorrent
 installcask totalterminal
 installcask virtualbox
 installcask harvest
@@ -26,6 +23,7 @@ installcask libreoffice
 installcask pgadmin3
 installcask rdio
 installcask mplayerx
+installcask appcleaner
 
 # EXTRA
 # flycut
