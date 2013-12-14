@@ -28,6 +28,7 @@ installcask appcleaner
 
 brew tap filipeximenes/casks
 installcask harvest-lion
+installcask isolate
 
 brew cask alfred link
 
