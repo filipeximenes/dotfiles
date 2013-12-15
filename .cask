@@ -25,6 +25,7 @@ installcask pgadmin3
 installcask rdio
 installcask mplayerx
 installcask appcleaner
+installcask silverlight
 
 brew tap filipeximenes/casks
 installcask harvest-lion
