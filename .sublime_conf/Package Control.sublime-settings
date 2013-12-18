@@ -13,6 +13,7 @@
 		"SCSS",
 		"SublimeCodeIntel",
 		"SublimeLinter",
-		"Tag"
+		"Tag",
+		"Handlebars"
 	]
 }
