@@ -26,6 +26,7 @@ installcask rdio
 installcask mplayerx
 installcask appcleaner
 installcask silverlight
+installcask openemu
 
 brew tap filipeximenes/casks
 installcask harvest-lion
