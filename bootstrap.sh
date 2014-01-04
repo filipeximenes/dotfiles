@@ -18,7 +18,7 @@ fi
 unset doIt
 
 if [[ "$OSTYPE" == 'linux-gnu' ]]; then
-    .
+    cp ~/.sublime_conf/* ~/.config/sublime-text-2/Packages/User/
 else
     cp ~/.sublime_conf/* ~/Library/Application\ Support/Sublime\ Text\ 2/Packages/User
 fi
