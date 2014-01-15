@@ -25,6 +25,9 @@ brew install git
 brew install node
 brew install python
 
+# Libs
+brew install libjpeg
+
 # brew tap homebrew/versions
 # brew install lua52
 
