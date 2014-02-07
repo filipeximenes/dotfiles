@@ -1,9 +1,3 @@
-# Add `~/bin` to the `$PATH`
-export PATH="$HOME/.bin:$PATH"
-export PATH="$HOME/.trigger:$PATH"
-export PATH="/usr/bin:$PATH"
-export PATH="/usr/local/opt/coreutils/libexec/gnubin:$PATH"
-export PATH="/Applications/Postgres93.app/Contents/MacOS/bin:$PATH"
 
 # Load the shell dotfiles, and then some:
 # * ~/.path can be used to extend `$PATH`.
@@ -13,6 +7,9 @@ for file in ~/.{path,exports,aliases,functions,extra,bash_prompt}; do
 	[ -r "$file" ] && source "$file"
 done
 unset file
+
+# start rvm
+source /Users/filipeximenes/.rvm/scripts/rvm
 
 # Case-insensitive globbing (used in pathname expansion)
 shopt -s nocaseglob

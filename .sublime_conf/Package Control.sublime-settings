@@ -2,6 +2,7 @@
 	"auto_upgrade_last_run": null,
 	"installed_packages":
 	[
+		"AdvancedNewFile",
 		"Alignment",
 		"ApplySyntax",
 		"AutoFileName",
@@ -14,6 +15,7 @@
 		"SublimeCodeIntel",
 		"SublimeLinter",
 		"Tag",
-		"Handlebars"
+		"Handlebars",
+		"DashDoc"
 	]
 }
