@@ -16,6 +16,7 @@
 		"SublimeLinter",
 		"Tag",
 		"Handlebars",
-		"DashDoc"
+		"DashDoc",
+		"Emmet",
 	]
 }
