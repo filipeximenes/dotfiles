@@ -1,22 +1,27 @@
 {
-	"auto_upgrade_last_run": null,
 	"installed_packages":
 	[
 		"AdvancedNewFile",
 		"Alignment",
 		"ApplySyntax",
 		"AutoFileName",
+		"Coffee Formatter",
+		"CoffeeScript",
+		"DashDoc",
+		"Djaneiro",
+		"EditorConfig",
+		"Emmet",
+		"Handlebars",
+		"IndentGuides",
+		"LESS",
 		"LiveReload",
 		"Markdown Preview",
-		"IndentGuides",
 		"Package Control",
+		"Pretty JSON",
 		"RubyFormat",
 		"SCSS",
 		"SublimeCodeIntel",
 		"SublimeLinter",
-		"Tag",
-		"Handlebars",
-		"DashDoc",
-		"Emmet",
+		"Tag"
 	]
 }
