@@ -5,6 +5,9 @@ export PATH="/usr/bin:$PATH"
 export PATH="/usr/local/opt/coreutils/libexec/gnubin:$PATH"
 export PATH="/Applications/Postgres.app/Contents/Versions/9.3/bin:$PATH"
 
+# Trigger toolkit command line tools
+export PATH="/Applications/TriggerToolkit.app/Contents/MacOS/:$PATH"
+
 export ANDROID_HOME=/usr/local/opt/android-sdk
 
 # Make vim the default editor
