@@ -1,0 +1,31 @@
+{
+	"installed_packages":
+	[
+		"AdvancedNewFile",
+		"Anaconda",
+		"ApplySyntax",
+		"Coffee Formatter",
+		"CoffeeScript",
+		"DashDoc",
+		"Djaneiro",
+		"EditorConfig",
+		"GitGutter",
+		"Handlebars",
+		"IndentGuides",
+		"LiveReload",
+		"Markdown Preview",
+		"Package Control",
+		"requirementstxt",
+		"RubyFormat",
+		"SideBarEnhancements",
+		"SublimeLinter",
+		"SublimeLinter-annotations",
+		"SublimeLinter-csslint",
+		"SublimeLinter-jshint",
+		"SublimeLinter-json",
+		"SublimeLinter-pep257",
+		"SublimeLinter-pep8",
+		"SublimeLinter-pylint",
+		"SublimeLinter-ruby"
+	]
+}

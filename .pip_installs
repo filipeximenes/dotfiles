@@ -10,4 +10,8 @@ $SUDO pip install virtualenv
 $SUDO pip install virtualenvwrapper
 source /usr/local/bin/virtualenvwrapper.sh
 
-$SUDO pip install httpie
+$SUDO pip install pylint
+$SUDO pip install pep8
+
+$SUDO npm install -g jshint
+$SUDO npm install -g csslint
