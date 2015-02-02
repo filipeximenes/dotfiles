@@ -26,7 +26,7 @@ fi
 
 
 if [[ "$OSTYPE" == 'linux-gnu' ]]; then
-    cp .sublime_conf/* ~/.config/sublime-text-2/Packages/User/
+    cp .sublime3_conf/* ~/.config/sublime-text-3/Packages/User/
 else
-    cp .sublime_conf/* ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User
+    cp .sublime3_conf/* ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User
 fi
