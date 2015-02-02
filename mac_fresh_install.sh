@@ -3,7 +3,7 @@
 # install XCode
 # install command line tools
 
-ruby -e "$(curl -fsSL https://raw.github.com/mxcl/homebrew/go/install)"
+ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
 source .brew
 source .cask

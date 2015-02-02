@@ -4,14 +4,14 @@ brew tap caskroom/versions
 brew install brew-cask
 
 function installcask() {
-    brew cask install "${@}" 2> /dev/null
+    brew cask install "${@}"
 }
 
 installcask dropbox
 installcask google-chrome
 installcask firefox
 installcask miro-video-converter
-installcask sublime-text
+installcask sublime-text3
 installcask the-unarchiver
 installcask evernote
 installcask alfred
@@ -20,16 +20,12 @@ installcask skype
 installcask utorrent
 installcask totalterminal
 installcask virtualbox
-installcask harvest
-installcask libreoffice
 installcask pgadmin3
-installcask rdio
 installcask mplayerx
 installcask appcleaner
 installcask silverlight
 installcask shiftit
-installcask dash
-installcask rescuetime
+installcask spotify
 
 brew tap filipeximenes/casks
 installcask harvest-lion
