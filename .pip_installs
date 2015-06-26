@@ -5,7 +5,7 @@ else
 	SUDO=''
 fi
 
-$SUDO pip install virtualenv
+# $SUDO pip install virtualenv
 
 $SUDO pip install virtualenvwrapper
 source /usr/local/bin/virtualenvwrapper.sh

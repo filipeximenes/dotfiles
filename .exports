@@ -5,8 +5,6 @@ export PATH="/usr/local/share/npm/bin:$PATH"
 export PATH="/usr/local/opt/coreutils/libexec/gnubin:$PATH"
 export PATH="/Applications/Postgres.app/Contents/Versions/9.4/bin:$PATH"
 
-export CFLAGS="-I$(xcrun --show-sdk-path)/usr/include"
-
 export ANDROID_HOME=/usr/local/opt/android-sdk
 
 # Make vim the default editor
@@ -37,13 +35,13 @@ export HOMEBREW_CASK_OPTS="--appdir=/Applications"
 
 # export PYTHONPATH=/usr/local/lib/python2.7/site-packages:$PYTHONPATH
 
-if [[ "$OSTYPE" == 'linux-gnu' ]]; then
+# if [[ "$OSTYPE" == 'linux-gnu' ]]; then
 	# Virtualenvwrapper config
-	export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python
-	export WORKON_HOME=$HOME/.virtualenvs
-	export PROJECT_HOME=$HOME/Projects
-	export PIP_DOWNLOAD_CACHE=$HOME/.pip_download_cache
-	source virtualenvwrapper.sh
+	# export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python
+	# export WORKON_HOME=$HOME/.virtualenvs
+	# export PROJECT_HOME=$HOME/Projects
+	# export PIP_DOWNLOAD_CACHE=$HOME/.pip_download_cache
+	# source virtualenvwrapper.sh
 # else
 	# Virtualenvwrapper config
 	# export VIRTUALENVWRAPPER_PYTHON=/usr/local/bin/python
@@ -54,13 +52,18 @@ if [[ "$OSTYPE" == 'linux-gnu' ]]; then
 
 	# Autoenv config
 	# source /usr/local/opt/autoenv/activate.sh
-fi
+# fi
 
 if [[ "$OSTYPE" == 'linux-gnu' ]]; then
-	export PATH=$PATH
-else
-	export PATH=/usr/local/bin:/usr/local/sbin:/usr/local/share/npm/bin:$PATH
-fi
+	export PATH=$HOME/.pyenv/bin:$PATH
+	# export PYENV_VIRTUALENVWRAPPER_PREFER_PYVENV="true"
 
-eval "$(pyenv init -)"
-pyenv virtualenvwrapper
+	eval "$(pyenv init -)"
+	eval "$(pyenv virtualenv-init -)"
+else
+	export CFLAGS="-I$(xcrun --show-sdk-path)/usr/include"
+	export PATH=/usr/local/bin:/usr/local/sbin:/usr/local/share/npm/bin:$PATH
+
+	eval "$(pyenv init -)"
+	pyenv virtualenvwrapper
+fi
