@@ -2,11 +2,6 @@
 	"in_process_packages":
 	[
 	],
-	"installed_dependencies":
-	[
-		"0_package_control_loader",
-		"bz2"
-	],
 	"installed_packages":
 	[
 		"AdvancedNewFile",
@@ -22,8 +17,10 @@
 		"Handlebars",
 		"Hyperion for gettext",
 		"IndentGuides",
+		"JSX",
 		"LiveReload",
 		"Markdown Preview",
+		"MarkdownEditing",
 		"Package Control",
 		"Pretty JSON",
 		"requirementstxt",
@@ -36,6 +33,7 @@
 		"SublimeLinter-csslint",
 		"SublimeLinter-jshint",
 		"SublimeLinter-json",
+		"SublimeLinter-jsxhint",
 		"SublimeLinter-pep8",
 		"SublimeLinter-pylint",
 		"SublimeLinter-ruby"
