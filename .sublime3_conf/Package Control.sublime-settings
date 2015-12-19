@@ -1,6 +1,11 @@
 {
+	"bootstrapped": true,
 	"in_process_packages":
 	[
+		"Coffee Formatter",
+		"CoffeeScript",
+		"IndentGuides",
+		"RubyFormat"
 	],
 	"installed_packages":
 	[
@@ -15,8 +20,10 @@
 		"EditorConfig",
 		"GitGutter",
 		"Handlebars",
+		"HTMLBeautify",
 		"Hyperion for gettext",
 		"IndentGuides",
+		"JavaScriptNext - ES6 Syntax",
 		"JSX",
 		"LiveReload",
 		"Markdown Preview",
@@ -24,6 +31,7 @@
 		"Package Control",
 		"Pretty JSON",
 		"requirementstxt",
+		"RestructuredText Improved",
 		"RubyFormat",
 		"Sass",
 		"SideBarEnhancements",

@@ -40,3 +40,5 @@ for file in ~/.{path,exports,aliases,functions,extra,bash_prompt}; do
         # If possible, add tab completion for many more commands
         [ -f /etc/bash_completion ] && source /etc/bash_completion
 
+    ulimit -n 2560
+

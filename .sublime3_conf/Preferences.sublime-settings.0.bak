@@ -1,6 +1,6 @@
 {
-	"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
-	"font_size": 14,
+	"color_scheme": "Packages/User/Monokai (SL).tmTheme",
+	"font_size": 13,
 	"hot_exit": false,
 	"ignored_packages":
 	[
@@ -8,7 +8,6 @@
 		"CoffeeScript",
 		"IndentGuides",
 		"Markdown",
-		"RestructuredText",
 		"RubyFormat",
 		"Vintage"
 	],
