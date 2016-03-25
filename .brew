@@ -35,9 +35,12 @@ brew link readline
 
 brew install pyenv
 pyenv install 2.7
+brew install pyenv-virtualenvwrapper
 
 # brew tap homebrew/versions
 # brew install lua52
+
+brew install libmemcached
 
 # Remove outdated versions from the cellar
 brew cleanup

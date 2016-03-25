@@ -13,25 +13,25 @@ installcask firefox
 installcask miro-video-converter
 installcask sublime-text3
 installcask the-unarchiver
-installcask evernote
-installcask alfred
-installcask calibre
+# installcask evernote
+# installcask alfred
+# installcask calibre
 installcask skype
 installcask utorrent
-installcask totalterminal
-installcask virtualbox
-installcask pgadmin3
+# installcask totalterminal
+# installcask virtualbox
+# installcask pgadmin3
 installcask mplayerx
 installcask appcleaner
 installcask silverlight
 installcask shiftit
 installcask spotify
 
-brew tap filipeximenes/casks
-installcask harvest-lion
-installcask isolate
+# brew tap filipeximenes/casks
+# installcask harvest-lion
+# installcask isolate
 
-brew cask alfred link
+# brew cask alfred link
 
 # EXTRA
 # flycut
