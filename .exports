@@ -35,14 +35,26 @@ export HOMEBREW_CASK_OPTS="--appdir=/Applications"
 
 # export PYTHONPATH=/usr/local/lib/python2.7/site-packages:$PYTHONPATH
 
-# if [[ "$OSTYPE" == 'linux-gnu' ]]; then
-	# Virtualenvwrapper config
-	# export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python
-	# export WORKON_HOME=$HOME/.virtualenvs
-	# export PROJECT_HOME=$HOME/Projects
-	# export PIP_DOWNLOAD_CACHE=$HOME/.pip_download_cache
-	# source virtualenvwrapper.sh
-# else
+if [[ "$OSTYPE" == 'linux-gnu' ]]; then
+	export PATH=$HOME/.pyenv/bin:$PATH
+
+	# Virtualenv
+	export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python
+	export WORKON_HOME=$HOME/.virtualenvs
+	export PROJECT_HOME=$HOME/Projects
+	# export PYENV_VIRTUALENVWRAPPER_PREFER_PYVENV="true"
+
+	eval "$(pyenv init -)"
+	pyenv virtualenvwrapper_lazy
+
+	export PIP_DOWNLOAD_CACHE=$HOME/.pip_download_cache
+else
+	export CFLAGS="-I$(xcrun --show-sdk-path)/usr/include"
+	export PATH=/usr/local/bin:/usr/local/sbin:/usr/local/share/npm/bin:$PATH
+
+	eval "$(pyenv init -)"
+	pyenv virtualenvwrapper_lazy
+
 	# Virtualenvwrapper config
 	# export VIRTUALENVWRAPPER_PYTHON=/usr/local/bin/python
 	# export PIP_DOWNLOAD_CACHE=$HOME/Library/Caches/pip-downloads
@@ -52,18 +64,4 @@ export HOMEBREW_CASK_OPTS="--appdir=/Applications"
 
 	# Autoenv config
 	# source /usr/local/opt/autoenv/activate.sh
-# fi
-
-if [[ "$OSTYPE" == 'linux-gnu' ]]; then
-	export PATH=$HOME/.pyenv/bin:$PATH
-	# export PYENV_VIRTUALENVWRAPPER_PREFER_PYVENV="true"
-
-	eval "$(pyenv init -)"
-	eval "$(pyenv virtualenv-init -)"
-else
-	export CFLAGS="-I$(xcrun --show-sdk-path)/usr/include"
-	export PATH=/usr/local/bin:/usr/local/sbin:/usr/local/share/npm/bin:$PATH
-
-	eval "$(pyenv init -)"
-	pyenv virtualenvwrapper
 fi
