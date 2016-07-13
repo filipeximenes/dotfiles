@@ -38,14 +38,13 @@ export HOMEBREW_CASK_OPTS="--appdir=/Applications"
 if [[ "$OSTYPE" == 'linux-gnu' ]]; then
 	export PATH=$HOME/.pyenv/bin:$PATH
 
-	eval "$(pyenv init -)"
-	pyenv virtualenvwrapper_lazy
-
-	# Virtualenv (should go after pyenv init)
-	export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python
+	# Virtualenv 
 	export WORKON_HOME=$HOME/.virtualenvs
 	export PROJECT_HOME=$HOME/Projects
 	export PYENV_VIRTUALENVWRAPPER_PREFER_PYVENV="true"
+
+	eval "$(pyenv init -)"
+	pyenv virtualenvwrapper # pip install virtualenvwrapper
 
 	export PIP_DOWNLOAD_CACHE=$HOME/.pip_download_cache
 else
@@ -53,7 +52,7 @@ else
 	export PATH=/usr/local/bin:/usr/local/sbin:/usr/local/share/npm/bin:$PATH
 
 	eval "$(pyenv init -)"
-	pyenv virtualenvwrapper_lazy
+	pyenv virtualenvwrapper
 
 	# Virtualenvwrapper config
 	# export VIRTUALENVWRAPPER_PYTHON=/usr/local/bin/python
