@@ -9,10 +9,7 @@
 	],
 	"installed_packages":
 	[
-		"AdvancedNewFile",
-		"AngularJS",
 		"ApplySyntax",
-		"Better CoffeeScript",
 		"Coffee Formatter",
 		"CoffeeScript",
 		"DashDoc",
@@ -28,6 +25,7 @@
 		"LiveReload",
 		"Markdown Preview",
 		"MarkdownEditing",
+		"OmniMarkupPreviewer",
 		"Package Control",
 		"Pretty JSON",
 		"requirementstxt",
@@ -36,14 +34,8 @@
 		"Sass",
 		"SideBarEnhancements",
 		"SublimeCodeIntel",
-		"SublimeLinter-coffee",
-		"SublimeLinter-coffeelint",
-		"SublimeLinter-csslint",
-		"SublimeLinter-jshint",
-		"SublimeLinter-json",
-		"SublimeLinter-jsxhint",
-		"SublimeLinter-pep8",
-		"SublimeLinter-pylint",
-		"SublimeLinter-ruby"
+		"SublimeLinter",
+		"SublimeLinter-flake8",
+		"SublimeLinter-rst"
 	]
 }

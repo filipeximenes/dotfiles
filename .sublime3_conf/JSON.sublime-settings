@@ -1,11 +1,12 @@
 {
 	"extensions":
 	[
-		".eslintrc",
-		".bowerrc",
-		".jscsrc",
 		".jshintrc",
-		".csslintrc"
+		".bowerrc",
+		".csslintrc",
+		"geojson",
+		".eslintrc",
+		".jscsrc"
 	],
 	"tab_size": 2,
 	"translate_tabs_to_spaces": true
