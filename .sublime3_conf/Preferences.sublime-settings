@@ -1,14 +1,19 @@
 {
-	"color_scheme": "Packages/User/SublimeLinter/Monokai (Flake8Lint) (SL).tmTheme",
-	"font_size": 13,
+	"color_scheme": "Packages/User/SublimeLinter/Monokai (SL).tmTheme",
+	"font_size": 11,
 	"hot_exit": false,
 	"ignored_packages":
 	[
+		"Better CoffeeScript",
 		"Coffee Formatter",
 		"CoffeeScript",
+		"DashDoc",
 		"IndentGuides",
 		"RestructuredText",
 		"RubyFormat",
+		"SublimeLinter-coffee",
+		"SublimeLinter-json",
+		"SublimeLinter-ruby",
 		"Vintage"
 	],
 	"remember_open_files": false
