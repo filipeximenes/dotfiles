@@ -11,18 +11,16 @@
 	"installed_packages":
 	[
 		"ApplySyntax",
+		"Babel",
 		"Coffee Formatter",
 		"CoffeeScript",
 		"DashDoc",
 		"Djaneiro",
 		"EditorConfig",
 		"GitGutter",
-		"Handlebars",
 		"HTMLBeautify",
 		"Hyperion for gettext",
 		"IndentGuides",
-		"JavaScriptNext - ES6 Syntax",
-		"JSX",
 		"LiveReload",
 		"Markdown Preview",
 		"MarkdownEditing",
@@ -36,7 +34,9 @@
 		"SideBarEnhancements",
 		"SublimeCodeIntel",
 		"SublimeLinter",
+		"SublimeLinter-contrib-eslint",
 		"SublimeLinter-flake8",
+		"SublimeLinter-jsxhint",
 		"SublimeLinter-rst"
 	]
 }
