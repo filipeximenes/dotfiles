@@ -4,7 +4,6 @@
 	[
 		"Coffee Formatter",
 		"CoffeeScript",
-		"DashDoc",
 		"IndentGuides",
 		"RubyFormat"
 	],
@@ -14,6 +13,7 @@
 		"Babel",
 		"Coffee Formatter",
 		"CoffeeScript",
+		"Color Highlighter",
 		"DashDoc",
 		"Djaneiro",
 		"EditorConfig",
