@@ -53,6 +53,9 @@ if [[ "$OSTYPE" == 'linux-gnu' ]]; then
 	pyenv virtualenvwrapper # pip install virtualenvwrapper
 
 	export PIP_DOWNLOAD_CACHE=$HOME/.pip_download_cache
+
+	export NVM_DIR="$HOME/.nvm"
+	[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh" # This loads nvm
 else
 	export CFLAGS="-I$(xcrun --show-sdk-path)/usr/include"
 	export PATH=/usr/local/bin:/usr/local/sbin:/usr/local/share/npm/bin:$PATH
