@@ -43,6 +43,9 @@ export HOMEBREW_CASK_OPTS="--appdir=/Applications"
 export PYTHONDONTWRITEBYTECODE=1
 
 if [[ "$OSTYPE" == 'linux-gnu' ]]; then
+	# Remap caps to scape
+	/usr/bin/setxkbmap -option "caps:swapescape"
+
 	export PATH=$HOME/.pyenv/bin:$PATH
 
 	# Virtualenv 
