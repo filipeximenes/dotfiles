@@ -1,6 +1,6 @@
 {
 	"color_scheme": "Packages/User/SublimeLinter/Monokai (SL).tmTheme",
-	"font_size": 8,
+	"font_size": 9,
 	"hot_exit": false,
 	"ignored_packages":
 	[
@@ -12,8 +12,7 @@
 		"RubyFormat",
 		"SublimeLinter-coffee",
 		"SublimeLinter-json",
-		"SublimeLinter-ruby",
-		"Vintage"
+		"SublimeLinter-ruby"
 	],
 	"remember_open_files": false
 }
