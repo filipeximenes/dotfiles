@@ -14,17 +14,14 @@
 		"Coffee Formatter",
 		"CoffeeScript",
 		"Color Highlighter",
-		"DashDoc",
 		"Djaneiro",
 		"EditorConfig",
 		"GitGutter",
-		"HTMLBeautify",
 		"Hyperion for gettext",
 		"IndentGuides",
 		"LiveReload",
-		"Markdown Preview",
 		"MarkdownEditing",
-		"OmniMarkupPreviewer",
+		"MarkdownPreview",
 		"Package Control",
 		"Pretty JSON",
 		"requirementstxt",
@@ -32,11 +29,11 @@
 		"RubyFormat",
 		"Sass",
 		"SideBarEnhancements",
+		"Six",
 		"SublimeCodeIntel",
 		"SublimeLinter",
-		"SublimeLinter-contrib-eslint",
+		"SublimeLinter-eslint",
 		"SublimeLinter-flake8",
-		"SublimeLinter-jsxhint",
-		"SublimeLinter-rst"
+		"SublimeLinter-jsxhint"
 	]
 }

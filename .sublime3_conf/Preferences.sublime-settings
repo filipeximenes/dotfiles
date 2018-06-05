@@ -12,7 +12,8 @@
 		"RubyFormat",
 		"SublimeLinter-coffee",
 		"SublimeLinter-json",
-		"SublimeLinter-ruby"
+		"SublimeLinter-ruby",
+		"Vintage"
 	],
 	"remember_open_files": false
 }
