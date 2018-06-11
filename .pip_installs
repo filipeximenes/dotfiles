@@ -12,6 +12,7 @@ source /usr/local/bin/virtualenvwrapper.sh
 
 $SUDO pip install pylint
 $SUDO pip install pep8
+$SUDO pip install CodeIntel
 
 $SUDO npm install -g jshint
 $SUDO npm install -g csslint
