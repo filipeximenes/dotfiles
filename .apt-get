@@ -1,23 +1,23 @@
 
 sudo apt-get update
 
-sudo apt-get install  guake
+sudo apt-get install guake
 
 # pastie
 # sudo apt-get install -y glipper
-sudo apt-get install -y parcellite xdotool
+# sudo apt-get install -y parcellite xdotool
 
 # google-chrome
-sudo apt-get install -y google-chrome-stable
-sudo apt-get -f install
+# sudo apt-get install -y google-chrome-stable
+# sudo apt-get -f install
 
 # sublime
 # sudo add-apt-repository ppa:webupd8team/sublime-text-2
 # sudo apt-get update
 # sudo apt-get install -y sublime-text
-sudo add-apt-repository ppa:webupd8team/sublime-text-3
-sudo apt-get update
-sudo apt-get install sublime-text-installer
+# sudo add-apt-repository ppa:webupd8team/sublime-text-3
+# sudo apt-get update
+# sudo apt-get install sublime-text-installer
 
 # git
 sudo apt-get install git
@@ -59,8 +59,8 @@ sudo apt-get install -y postgresql
 sudo apt-get install -y curl
 
 # ruby
-\curl -L https://get.rvm.io | bash -s stable --ruby
-gem install compass
+# \curl -L https://get.rvm.io | bash -s stable --ruby
+# gem install compass
 
 # dropbox
 #cd ~ && wget -O - "https://www.dropbox.com/download?plat=lnx.x86_64" | tar xzf -

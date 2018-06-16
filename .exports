@@ -34,7 +34,9 @@ export LESS_TERMCAP_md="$ORANGE"
 export MANPAGER="less -X"
 
 # Always enable colored `grep` output
-export GREP_OPTIONS="--color=auto"
+# export GREP_OPTIONS="--color=auto"
+alias grep="grep $GREP_OPTIONS"
+export GREP_COLOR='1;32'
 
 # Link Homebrew casks in `/Applications` rather than `~/Applications`
 export HOMEBREW_CASK_OPTS="--appdir=/Applications"
@@ -44,7 +46,7 @@ export PYTHONDONTWRITEBYTECODE=1
 
 if [[ "$OSTYPE" == 'linux-gnu' ]]; then
 	# Remap caps to scape
-	/usr/bin/setxkbmap -option "caps:swapescape"
+	# /usr/bin/setxkbmap -option "caps:swapescape"
 
 	export PATH=$HOME/.pyenv/bin:$PATH
 
