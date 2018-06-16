@@ -3,15 +3,6 @@
 	"hot_exit": false,
 	"ignored_packages":
 	[
-		"Better CoffeeScript",
-		"Coffee Formatter",
-		"CoffeeScript",
-		"IndentGuides",
-		"RestructuredText",
-		"RubyFormat",
-		"SublimeLinter-coffee",
-		"SublimeLinter-json",
-		"SublimeLinter-ruby",
 		"Vintage"
 	],
 	"remember_open_files": false

@@ -1,24 +1,12 @@
 {
 	"bootstrapped": true,
-	"in_process_packages":
-	[
-		"Coffee Formatter",
-		"CoffeeScript",
-		"IndentGuides",
-		"RubyFormat"
-	],
 	"installed_packages":
 	[
 		"ApplySyntax",
 		"Babel",
-		"Coffee Formatter",
-		"CoffeeScript",
-		"Color Highlighter",
 		"Djaneiro",
 		"EditorConfig",
 		"GitGutter",
-		"Hyperion for gettext",
-		"IndentGuides",
 		"LiveReload",
 		"MarkdownEditing",
 		"MarkdownPreview",
@@ -26,7 +14,6 @@
 		"Pretty JSON",
 		"requirementstxt",
 		"RestructuredText Improved",
-		"RubyFormat",
 		"Sass",
 		"SideBarEnhancements",
 		"Six",
