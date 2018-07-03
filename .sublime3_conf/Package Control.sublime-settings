@@ -1,5 +1,8 @@
 {
 	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
 	"installed_packages":
 	[
 		"ApplySyntax",
@@ -20,7 +23,6 @@
 		"SublimeCodeIntel",
 		"SublimeLinter",
 		"SublimeLinter-eslint",
-		"SublimeLinter-flake8",
-		"SublimeLinter-jsxhint"
+		"SublimeLinter-flake8"
 	]
 }

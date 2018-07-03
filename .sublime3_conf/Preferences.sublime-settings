@@ -3,6 +3,8 @@
 	"hot_exit": false,
 	"ignored_packages":
 	[
+		"Markdown",
+		"RestructuredText",
 		"Vintage"
 	],
 	"remember_open_files": false
