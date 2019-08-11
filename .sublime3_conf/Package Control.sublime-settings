@@ -1,23 +1,14 @@
 {
 	"bootstrapped": true,
-	"in_process_packages":
-	[
-	],
 	"installed_packages":
 	[
 		"ApplySyntax",
 		"Babel",
-		"Djaneiro",
 		"EditorConfig",
 		"GitGutter",
-		"LiveReload",
-		"MarkdownEditing",
-		"MarkdownPreview",
 		"Package Control",
 		"Pretty JSON",
-		"requirementstxt",
 		"RestructuredText Improved",
-		"Sass",
 		"SideBarEnhancements",
 		"Six",
 		"SublimeCodeIntel",
